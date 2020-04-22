@@ -149,6 +149,8 @@ class MenuList extends Component {
   }
 }
 
+
+// COMPONENTE PRINCIPAL
 class Menu extends Component {
   // Flags para mostrar o ocultar los menús
   state = {
@@ -156,8 +158,6 @@ class Menu extends Component {
     visibleDinner: false,
   };
   
-
-
   // Filtra los elemntos de la data de acuerdo al prop que se le pase (breakfast o dinner)
   // y te deja la data filtrada para manipularla en MenuList
   getMealsByType(type) {
